@@ -26,3 +26,12 @@ function validity() {
     return false;
   }
 }
+// Create a function to calculate the day of the week using getDay() method
+function  dayOfTheWeek() {
+  var DD = document.getElementById("Days").value;
+  var MM = document.getElementById("Months").value;
+  var YY = document.getElementById("Years").value;
+  var d = new Date(YY, (MM-1), DD);
+  let day = d.getDay();
+  alert(day);
+}
