@@ -13,7 +13,6 @@ function validity() {
   var checkDay = document.getElementById("Days").value;
   var checkMonth = document.getElementById("Months").value;
   var checkYear = document.getElementById("Years").value;
-  var checkGender= document.getElementsByName("gender").checked
   // Careful: it's "else if" not "elseif"
   if (checkDay === "") {
    alert("Date not selected!");
