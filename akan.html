@@ -9,13 +9,14 @@
   <link rel="stylesheet" href="css/akan-scripts.css" type ="text/css">
 </head>
 <body>
+  <script src="js/akan-scripts.js"></script>
   <div class = "container">
-    <form>
+    <form onsubmit="getAkanName()">
       <div class = "form-group">
         <label for="dates">Date of Birth</label>
         <br>
         <select name="days" id="Days">
-          <option value="days">Select your date of birth here!</option>
+          <option value="">Select your date of birth here!</option>
           <option value="01">01</option>
           <option value="02">02</option>
           <option value="03">03</option>
@@ -54,7 +55,7 @@
         <label for="months">Month of Birth</label>
         <br>
         <select name="months" id="Months">
-          <option value="months">Select your month of birth here!</option>
+          <option value="">Select your month of birth here!</option>
           <option value="01">01</option>
           <option value="02">02</option>
           <option value="03">03</option>
@@ -74,7 +75,7 @@
         <label for="years">Year of Birth</label>
         <br>
         <select name="years" id="Years">
-          <option value="years">Select your year of birth here!</option>
+          <option value="">Select your year of birth here!</option>
           <option value="1930">1930</option>
           <option value="1931">1931</option>
           <option value="1932">1932</option>
