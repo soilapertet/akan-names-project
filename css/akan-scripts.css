@@ -1,15 +1,46 @@
 body
 {
   font-family: "PT Sans Caption";
+  background-image: url(../images/african_woman.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image is fixed in the viewport so that it doesn’t move when
+  the content’s height is greater than the image’s height */
+  background-attachment: fixed;
+  background-size: cover;
 }
-.sidebar
+.card
 {
-  width: 25%;
-  border: 2px solid black;
-  float: left;
-  margin: 10px;
-  padding: 10px;
-  font-size: 15px;
+  border: 4px solid #434343;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom,#ffe259, #ffa751);
+  
 }
-
-
+.jumbotron
+{
+  margin: 10px;
+  width: 100%;
+  background-image:linear-gradient(to bottom right, #ffe259, #ffa751);
+  border: 4px solid #434343;
+  text-align: center;
+  font-size: 50px;
+}
+select
+{
+  width: 100%;
+}
+/* Make the image responsive */
+img
+{
+  width: 100%;
+  position:relative;
+  background-image: cover;
+}
+.overlay
+{
+  position: absolute;
+  top: 8px;
+  right: 175px;
+  width: 75%;
+  opacity: 0.9;
+}
