@@ -1,6 +1,6 @@
 body
 {
-  font-family: "PT Sans Caption";
+  font-family: "Lobster";
   background-image: url(../images/african_woman.jpg);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -30,12 +30,6 @@ select
   width: 100%;
 }
 /* Make the image responsive */
-img
-{
-  width: 100%;
-  position:relative;
-  background-image: cover;
-}
 .overlay
 {
   position: absolute;
@@ -62,4 +56,21 @@ img
 {
   background-image: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
   color: black
+}
+p
+{
+  font-size: 25px;
+}
+.results
+{
+  font-size: 35px;
+}
+.card-footer
+{
+  font-size: 15px;
+}
+img
+{
+  float:left;
+  margin: 10px;
 }
