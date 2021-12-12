@@ -19,7 +19,7 @@
       </div>
       <div class= "card">
         <div class = "card-body">
-          <form onsubmit="getAkanName()">
+          <form>
             <div class = "form-group">
               <label for="dates">Date of Birth</label>
               <br>
@@ -187,7 +187,10 @@
               <input type="radio" id="female" name="gender">
               <label for="female">Female</label>
               <br>
-              <input type="submit" value="Submit">
+              <button type="button" onclick="getAkanName()" class="button">Click here to get your Akan Name!</button>
+            </div>
+            <div class="results">
+              <p id="results"></p>
             </div>
           </form>
         </div>
